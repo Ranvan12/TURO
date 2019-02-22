@@ -25,6 +25,7 @@ for i in range(link_count):
     l_zone_1 += [zone_1]
     l_zone_2 += [zone_2]
 
+# a function to replace the value of one of the element(s) of a list
 def f (L,x):
 	for i in range (len (L)):
 		if L [i] == x and L [0] != x :
